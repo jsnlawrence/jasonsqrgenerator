@@ -81,39 +81,13 @@ The app communicates with a Flask REST API:
 
 ---
 
-## Building
-
-### Requirements
-- Android Studio Koala (2024.1.1) or later
-- JDK 17
-- Android SDK 35
-
-### Debug Build
-```bash
-./gradlew assembleDebug
-```
-
-### Signed Release Build
-```bash
-./gradlew assembleRelease
-```
-
-APK output: `app/build/outputs/apk/release/app-release.apk`
-
----
 
 ## Install
 
 ### Direct Download
-[Download the latest APK](https://github.com/jsnlawrence/jasonsqrgenerator/releases/download/v1.0/app-release.apk)
+[Download the latest APK](https://github.com/jsnlawrence/jasonsqrgenerator/releases/download/1.2/jasonsqrgeneratorv1.2.apk)
 
-### From Source
-1. Clone this repo
-2. Open in Android Studio
-3. Build → Run
-
----
 
 ## License
 
-Personal project by Jason Lawrence. All rights reserved.
+Personal project by JLaw All rights reserved.
