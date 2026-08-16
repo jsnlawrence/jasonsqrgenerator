@@ -4,7 +4,7 @@ A native Android QR code generator, scanner, and management app built with Kotli
 
 **No ads. No watermarks. No subscriptions. Just QR codes.**
 
-[![Download APK](https://img.shields.io/badge/Download-APK-red?style=for-the-badge&logo=android)](https://drive.usercontent.google.com/download?id=1UlMUN3uRXc2B4h-nsEUr9KcXQBwFft1I&export=download&authuser=0&confirm=1)
+[![Download APK](https://img.shields.io/badge/Download-APK-red?style=for-the-badge&logo=android)](https://github.com/jsnlawrence/jasonsqrgenerator/releases/download/v1.0/app-release.apk)
 
 ---
 
@@ -105,7 +105,7 @@ APK output: `app/build/outputs/apk/release/app-release.apk`
 ## Install
 
 ### Direct Download
-Scan this QR code or [click here](https://drive.usercontent.google.com/download?id=1UlMUN3uRXc2B4h-nsEUr9KcXQBwFft1I&export=download&authuser=0&confirm=1) to download the APK.
+[Download the latest APK](https://github.com/jsnlawrence/jasonsqrgenerator/releases/download/v1.0/app-release.apk)
 
 ### From Source
 1. Clone this repo
