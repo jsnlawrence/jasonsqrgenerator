@@ -1,14 +1,15 @@
 package com.jasonlawrence.qrmaster.data.repository
 
+import android.content.Context
 import com.jasonlawrence.qrmaster.data.api.RetrofitClient
 import com.jasonlawrence.qrmaster.data.model.QRCode
 import com.jasonlawrence.qrmaster.data.model.EmailRequest
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
-class QRRepository {
+class QRRepository(context: Context) {
 
-    private val api = RetrofitClient.apiService
+    private val api = RetrofitClient.getApiService(context)
 
     suspend fun getQRCodes(): Result<List<QRCode>> = withContext(Dispatchers.IO) {
         try {

@@ -5,7 +5,8 @@ import android.graphics.Color as AndroidColor
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
-import androidx.lifecycle.ViewModel
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.google.zxing.BarcodeFormat
 import com.google.zxing.EncodeHintType
@@ -53,9 +54,9 @@ data class LibraryState(
     val error: String? = null
 )
 
-class QRViewModel : ViewModel() {
+class QRViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val repository = QRRepository()
+    private val repository = QRRepository(application.applicationContext)
 
     var generatorState by mutableStateOf(GeneratorState())
         private set
