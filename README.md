@@ -16,6 +16,11 @@ A native Android QR code generator, scanner, and management app built with Kotli
 - **Contact Card** — vCard 3.0 with name, phone, email, organization
 - **JSON** — Raw JSON payloads (Android Enterprise/EMM provisioning configs)
 
+### Privacy & Security
+- Each device gets an anonymous ID — your QR library is private to your device
+- No account or login required
+- Email dispatch rate-limited to 50/day per device
+
 ### Customization
 - Custom foreground (dots) and background colors via visual color picker
 - Error correction levels: Low (7%), Medium (15%), Quartile (25%), High (30%)
